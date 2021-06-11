@@ -1,0 +1,28 @@
+/*----CONTACT聯絡我們----*/
+#contactImg{
+	background: #0000003d url('../img/contact.jpg') 50% 0 no-repeat fixed;
+    height: 340px;
+    padding: 20px 0 0 0;
+}
+.contact-cont{
+	text-align: center;
+}
+
+@media (max-width:480px) {
+	#contactImg{
+	background: #0000003d url('../img/contact.jpg') 50% 0 no-repeat ;
+	background-size: cover;
+    height: 340px;
+    padding: 20px 0 0 0;
+	}
+
+/* 	#contactImg{
+		background: #000 ;
+	    height: 340px;
+	    padding: 20px 0 0 0;
+	    color: #fff
+	} */
+	/* #contactImg a{
+		color: #fff
+	} */
+}

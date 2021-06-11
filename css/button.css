@@ -1,0 +1,85 @@
+
+.button{
+    height: 48px;
+    width: 90%;
+    margin: 15px auto;
+    padding: 10px 0px;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 50px;
+    box-shadow: 1px 2px 10px #00000025;
+    background: #93de80; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #93de80 0%, #06bbb6 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #93de80 0%,#06bbb6 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #93de80 0%,#06bbb6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+/*button style*/
+button{
+    border-radius: 50px;
+    text-align: center;
+    display: block; 
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.10);
+  }
+.basic_but{
+  height: 46px;
+  margin: 15px 0;
+}
+.small_but{
+  width: 90px;
+  margin:10px 0 10px 10px;
+  padding: 6px;
+}
+.g_but{
+  color: #fff;
+  background: linear-gradient(314deg, #93DE80 34%, #06BBB6 93%); 
+  background: -moz-linear-gradient(314deg, #93DE80 34%, #06BBB6 93%); 
+  background: -webkit-linear-gradient(314deg, #93DE80 34%, #06BBB6 93%); 
+  background: -o-linear-gradient(314deg, #93DE80 34%, #06BBB6 93%); 
+}
+.p_but{
+  color: #fff;
+  background: linear-gradient(314deg, #ffa5d1 -2%, #ff4c8f 93%); 
+  background: -moz-linear-gradient(314deg, #ffa5d1 -2%, #ff4c8f 93%); 
+  background: -webkit-linear-gradient(314deg, #ffa5d1 -2%, #ff4c8f 93%);
+  background: -o-linear-gradient(314deg, #ffa5d1 -2%, #ff4c8f 93%); 
+}
+ .cancel_but{
+  color: #06BBB6;
+  border: solid 1px #06BBB6;
+}
+
+.modal-footer-but{
+    width: 100%;
+}
+.cart-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-align: right;
+    background-color: #f1f4f6;
+}
+.left-btn {
+    float:left;
+    margin-left: 15px;
+    width: calc(100% - 57%);
+}
+.right-btn{
+    float:right;
+    margin-right: 15px;
+    width: calc(100% - 57%);
+}
+/*確認送出*/
+.btn-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #f1f4f6;
+  }
+
+

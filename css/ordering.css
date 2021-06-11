@@ -1,0 +1,218 @@
+@import url("reset.css");
+@import url("main.css");
+@import url("navbar.css");
+@import url("ind_new.css");
+@import url("swiper.css");
+#orderingImg {
+    background: url('../img/ordering-inner.jpg') no-repeat fixed;
+    background-size: 100%;
+    background-position: 0 center !important;
+    color: white;
+    height: 300px;
+}
+.titleKamBox {
+    margin-bottom: 0px;
+}
+.Customized img {
+    width: 100%;
+}
+.Customized img.m {
+    display: none;
+}
+.radius{
+	    border-radius: 50%;
+	    padding: 30px;
+}
+
+#psImg {
+    background: url('../img/ordering-inner-01.jpg') no-repeat fixed;
+    background-size: 100%;
+    background-position: 0 center !important;
+    height: 300px;
+}
+#psImg p{
+	width: 50%;
+	/*background: #fff;*/
+	color: #000;
+	padding: 50px ;
+	margin: 0 auto ;
+	text-align: center;
+    font-size: 1.05em;
+}
+#psImg p span{
+	font-size: 2.5em;
+    display: block;
+    margin-top: 30px;
+    color: #dba90f;
+}
+
+.txt-cont p{
+   line-height: 30px;
+   text-align: center;
+}
+
+/*----ORDERING訂購方式----*/
+@media screen and (min-width: 1024px){
+	.ordering-list-c > div{
+		width: 260px!important;
+	    height: 260px;
+	    color: #000;
+	    text-align: center;
+	    background: #f0f2f5;
+		margin: 50px auto ;
+	}
+
+	.ordering-list-c img{
+		width: 60%;
+	}
+	.ordering-list-c span{
+		display: block
+	}
+	.swiper-button-prev, .swiper-button-next {
+	    display: none
+	}
+	
+}
+@media screen and (max-width: 768px){
+	.ordering-list-c > div{
+	    width: 310px!important;
+	    height: 310px;
+	    color: #000;
+	    text-align: center;
+	    background: #f0f2f5;
+	    margin: calc(50px*3);
+	    margin-top: 50px;
+	    margin-bottom: 50px;
+		}
+
+	.ordering-list-c img{
+		width: 70%;
+	}
+	.ordering-list-c span{
+		display: block
+	}
+
+}
+@media (max-width:480px){
+	#orderingImg {
+	    background: url('../img/ordering-inner.jpg') no-repeat ;
+	    background-size: 100%;
+	    background-position: 0 center !important;
+	    color: white;
+	    height: 200px;
+	}
+	.ordering-list > div{
+	    width: 70%;
+	    height: auto;
+	    margin: 0 auto 50px;
+	    text-align: center;
+	    float: none;
+	}
+	.ordering-list > div:nth-child(3n+1){
+		margin: 0 auto 50px!important;
+	}
+	.ordering-list-c > div{
+		width: 260px!important;
+	    height: 260px;
+	    margin-top: 0;
+	    margin-bottom: 0;
+	    margin: calc(24px*3 / 2);
+	    color: #000;
+	    text-align: center;
+	    background: #f0f2f5;
+		}
+	.ordering-list-c img{
+		width: 60%;
+	}
+	.ordering-list-c span{
+		display: block
+	}
+	.swiper-button-prev, .swiper-button-next {
+	    position: absolute;
+	    top: 50%;
+	    width: 27px;
+	    height: 44px;
+	    margin-top: -22px;
+	    z-index: 10;
+	    cursor: pointer;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    display: block;
+	}
+	.Customized img.pc {
+	    display: none;
+	}
+	.Customized img.m {
+	    display: block;
+	}
+}
+@media (max-width:376px) {
+	.ordering-list-c > div{
+	    width: 250px!important;
+	    height: 250px;
+	    margin-top: 0;
+	    margin-bottom: 0;
+	    margin: calc(16px*3 / 2);
+	    clear: both;
+	    color: #000;
+	    text-align: center;
+	    background: #f0f2f5;
+		}
+
+}
+@media (max-width:320px) {
+	.ordering-list-c > div{
+	    width: 250px!important;
+	    height: 250px;
+	    margin-top: 0;
+	    margin-bottom: 0;
+	    margin: calc(2px*3 / 2);
+	    clear: both;
+	    color: #000;
+	    text-align: center;
+	    background: #f0f2f5;
+	}
+	.ordering-list-c img{
+		width: 60%;
+	}
+	.ordering-list-c span{
+		display: block
+	}
+	.swiper-button-prev, .swiper-button-next {
+	    position: absolute;
+	    top: 50%;
+	    width: 27px;
+	    height: 44px;
+	    margin-top: -22px;
+	    z-index: 10;
+	    cursor: pointer;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    display: block;
+	}
+	
+
+	
+}
+@media (max-width:415px) {
+	#psImg {
+	    background: url('../img/ordering-inner-01.jpg') no-repeat fixed;
+	    background-size: cover;
+	    background-position: center center !important;
+	    height: 260px;
+	}
+	#psImg p{
+		width: 80%;
+		background: #fff;
+		color: #000;
+		padding: 32px ;
+		margin: 0 auto ;
+		text-align: center;
+	}
+	#psImg p span{
+		font-size: 1.7em;
+	    display: block;
+	    margin-top: 20px;
+	    color: #dba90f;
+	}
+}

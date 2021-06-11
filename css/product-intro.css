@@ -1,0 +1,32 @@
+@import url("reset.css");
+@import url("main.css");
+@import url("navbar.css");
+@import url("ind_new.css");
+@import url("swiper.css");
+
+
+#productImg {
+    background: url('../img/product-inner.jpg') no-repeat fixed;
+    background-size: 100%;
+    background-position: 0 center !important;
+    color: white;
+    height: 300px;
+}
+.titleKamBox {
+    margin-bottom: 0px;
+}
+
+.txt-cont p{
+   line-height: 30px;
+   border-radius: ;
+   text-align: center;
+}
+@media (max-width:480px) {
+	#productImg {
+	    background: url('../img/product-inner.jpg') no-repeat;
+	    background-size: 100%;
+	    background-position: 0 center !important;
+	    color: white;
+	    height: 200px;
+	}	
+}

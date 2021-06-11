@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+#news {
+    transition: all 2s ease;
+    opacity: 1;
+}
+.news-wrap {
+    /* position: relative; */
+    background-color: rgba(20,60,120,0.05);
+    padding: 110px 0 180px;
+    margin: 200px auto 0;
+    z-index: 1;
+}
+.news-wrap .section__ttl-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.news-wrap .ttl-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.news-wrap .section__ttl {
+    margin: 0 20px 0 0;
+}
+.section__ttl {
+    margin-bottom: 30px;
+}
+.section-contents {
+    margin: 0 auto 110px;
+}
+.en {
+    font-family: 'Oswald', sans-serif;
+}
+.uppercase {
+    text-transform: uppercase; /*英文字大寫*/
+}
+.news-inner {
+    position: relative;
+    max-width: 1000px;
+}
+.news-wrap .slick-prev {
+    margin: auto 8px 0 0;
+}
+.news-wrap .slick-arrow {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.slick-arrow {
+    background-color: #FFF;
+    border-radius: 50%;
+    background-image: none;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    background-size: 0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+    z-index: 9;
+    font-size: 0;
+    border: 0;
+    line-height: 0;
+    padding: 0;
+}
+.w-state--reg {
+    width: calc(100% - 50px);
+    max-width: 1200px;
+    position: static;
+    margin-right: auto;
+    margin-left: auto;
+}
+.slider__btn-wrap {
+    white-space: nowrap;
+    line-height: 0;
+}
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+    opacity: 0.3;
+}
+.slick-prev:before {
+    border-right: 9px solid #143c78;
+    right: auto;
+    left: 12px;
+}
+.slick-prev:before, .slick-next:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+}

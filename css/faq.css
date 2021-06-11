@@ -1,0 +1,66 @@
+@import url("reset.css");
+@import url("main.css");
+@import url("navbar.css");
+@import url("ind_new.css");
+@import url("swiper.css");
+#faqImg {
+    background: url('../img/faq-inner.jpg') no-repeat fixed;
+    background-size: 100%;
+    background-position: 0 center !important;
+    color: white;
+    height: 300px;
+}
+.titleKamBox {
+    margin-bottom: 0px;
+}
+.faq-wrap{
+	line-height: 32px;
+	margin-top: 70px;
+}
+.faq-wrap > div{
+    width: calc(100%/2 - 30px);
+    margin: calc(30px / 2 );
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.faq-wrap ol{
+	list-style: decimal;
+}
+/* .faq-wrap:nth-child(even) .txt-cont {
+    -ms-flex-order: 1;
+    order: 1;
+}
+.faq-wrap:nth-child(even) .img-cont {
+    -ms-flex-order: 2;
+    order: 2;
+    margin-right: -2.5%
+} */
+.faq-wrap .img-cont{
+}
+.faq-wrap .img-cont img{
+	width: 100%;
+}
+.faq-wrap .txt-cont{
+	padding-left: 30px;
+}
+@media  (max-width: 480px) {
+    #faqImg {
+        background: url('../img/faq-inner.jpg') no-repeat ;
+        background-size: 100%;
+        background-position: 0 center !important;
+        color: white;
+        height: 200px;
+    }
+    .faq-wrap{
+        line-height: 32px;
+        margin-top: 0px;
+    }
+    .faq-wrap > div {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
