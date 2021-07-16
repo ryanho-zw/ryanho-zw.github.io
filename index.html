@@ -93,7 +93,7 @@ $(document).ready(function() {
                                     </p>
                                 </div>
                         </div> -->
-                        <div class="swiper-slide news">
+                        <div class="swiper-slide news" id="news_temp">
                             <!-- <a href="#" tabindex="0"> -->
                                 <div class="news-date">
                                     <p class="en"><!-- 2020.08 --></p>
@@ -387,32 +387,32 @@ $(document).ready(function() {
 
         });
 
-        // function getRandomIntInclusive(min, max) {
-        //     min = Math.ceil(min);
-        //     max = Math.floor(max);
-        //     return Math.floor(Math.random() * (max - min + 1) + min);
-        // }
+        function getRandomIntInclusive(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
 
-        // function news_temp() {
-        //     let random_key = getRandomIntInclusive(1, 999);           
-        //     // $.get('news_temp.php?'+random_key, function(data) {
-        //     //     console.log(data);
-        //     // });
-        //     $.ajax({
-        //         url: 'news_temp.php?'+random_key,
-        //         type: 'GET',
-        //         timeout: 5000,
-        //         error: function(xhr) {
-        //             console.log("Networking Error, Please retry later.");                               
-        //         },
-        //         success: function(response) {           
-        //             console.log(response);
-        //             "Off"==response?$("#news_temp").hide():$("#news_temp").show();
-        //         }
-        //     });
-        // }
+        function news_temp() {
+            let random_key = getRandomIntInclusive(1, 999);           
+            // $.get('news_temp.php?'+random_key, function(data) {
+            //     console.log(data);
+            // });
+            $.ajax({
+                url: 'news_temp.php?'+random_key,
+                type: 'GET',
+                timeout: 5000,
+                error: function(xhr) {
+                    console.log("Networking Error, Please retry later.");                               
+                },
+                success: function(response) {           
+                    console.log(response);
+                    "Off"==response?$("#news_temp").hide():$("#news_temp").show();
+                }
+            });
+        }
 
-        // news_temp();
+        news_temp();
         </script>
     </div>
 </body>
