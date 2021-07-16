@@ -1,8 +1,8 @@
 <?php
-$date = date("Ymd", time());
-// echo (int)$date;
+$date = date("ymdHi", time());
+echo (int)$date;
 
-if ( (int)$date > 20210216 ) {
+if ( (int)$date > 21080821 ) {
 	echo "Off";
 }
 else {
