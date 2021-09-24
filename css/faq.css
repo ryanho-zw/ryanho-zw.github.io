@@ -64,3 +64,11 @@
         margin: 0 auto;
     }
 }
+
+.img-responsive {
+  width: calc(80% / 1 - 5%);
+  margin: calc(2%*2 / 1);
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
